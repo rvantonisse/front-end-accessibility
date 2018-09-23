@@ -125,13 +125,20 @@ h1 {
   height: 125px;
 }
 
-.more-articles p {
+.article-list {
+  margin: 0;
+  padding: 0;
+}
+
+.article-list>li {
+  list-style: none;
   border-bottom: 1px solid #807c72;
+  margin: 0;
   padding: 5px 0px 15px 0px;
   font-size: 80%;
 }
 
-.more-articles p:last-child {
+.article-list>li:last-child {
   border-bottom: none;
 }
 
