@@ -74,10 +74,13 @@ a.skipLink:focus, a.skipLink:active {
 }
 
 .menu>li+li::before {
+  content: "";
   display: inline-block;
-  content: "/";
-  margin: 0 5px;
-  color: white;
+  margin: 0 0.5em;
+  height: 1em;
+  width: 0;
+  border-left: solid 2px white;
+  transform: rotate(15deg);
 }
 
 .wrapper {
