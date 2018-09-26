@@ -225,3 +225,11 @@ p.clean {
 #contact_form textarea {
   width: 250px;
 }
+
+.sr-only {
+  position: absolute;
+  left: -99999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
